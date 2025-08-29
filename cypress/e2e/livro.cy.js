@@ -1,6 +1,9 @@
 // C reate | R ead | U pdate   | D elete
 // Post    | Get   | Put/Patch | Delete
 
+// Nesse arquivo esta armazenado o teste da Api, no qual é realizado os testes de endpoints.
+// Necessario ter gitBash no computador, abrir a pasta livro_api e digitar: 1. install cypress -d , 2. install plugim-api -d e npx cypress open 
+
 describe('Teste Api de Livros, usando CRUD', () => {
     it('Deve Criar o Livro, Buscar, Atualizar e Deletar', () => {
 
@@ -83,4 +86,5 @@ describe('Teste Api de Livros, usando CRUD', () => {
             });
         });
     });
+
 });
